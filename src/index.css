@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body {
+  background: rgb(245, 245, 245);
+  overflow-y: scroll;
+}
+
+.right {
+  text-align: right;
+}
+
+.flex-panel {
+  width: 100%;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  h4 {
+    font-size: 18px;
+  }
+  .flex-panel-container {
+    width: 95%  ;
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+  .flex-panel-container {
+    width: 80%  ;
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .flex-panel-container {
+    width: 60%  ;
+  }
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .flex-panel-container {
+    width: 50%  ;
+  }
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+  .flex-panel-container {
+    width: 40%  ;
+  }
+}
